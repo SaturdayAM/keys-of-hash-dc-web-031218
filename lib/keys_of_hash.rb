@@ -7,8 +7,8 @@ class Hash
         to_return << key
       end
     end
-    arguments.inspect
   end
+  to_return
 end
 
 hash = {
