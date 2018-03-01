@@ -5,3 +5,5 @@ class Hash
     "Hello"
   end
 end
+
+hash = {"key_1" => "val_1"}
