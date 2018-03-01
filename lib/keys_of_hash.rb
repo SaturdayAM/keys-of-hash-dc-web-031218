@@ -16,4 +16,4 @@ hash = {
   "key_1" => "val_1",
   "key_2" => "val_2"
 }
-puts hash.keys_of("arg1", "arg2").inspect
+puts hash.keys_of("arg1", "val_2").inspect
