@@ -7,8 +7,8 @@ class Hash
         to_return << key
       end
     end
+    to_return
   end
-  to_return
 end
 
 hash = {
