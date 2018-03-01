@@ -7,4 +7,4 @@ class Hash
 end
 
 hash = {"key_1" => "val_1"}
-puts hash.keys_of("arg1")
+puts hash.keys_of("arg1", "arg2")
