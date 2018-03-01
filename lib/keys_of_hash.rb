@@ -2,7 +2,10 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     to_return = []
-    self.keys
+    #self.each do |key, value|
+    #end
+    arguments.inspect
+
   end
 end
 
