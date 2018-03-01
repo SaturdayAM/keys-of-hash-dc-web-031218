@@ -9,7 +9,7 @@ class Hash
     end
     to_return
   end #end keys_of
-  
+
 end
 
 hash = {
