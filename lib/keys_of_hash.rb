@@ -3,7 +3,7 @@ class Hash
     # code goes here
     to_return = []
     self.each do |key, value|
-      if arguments.inspect.include?(value)
+      if arguments.inspect.include?(value.to_s)
         to_return << key
       end
     end
