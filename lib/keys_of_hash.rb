@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     to_return = []
-    Hash
+    self
   end
 end
 
