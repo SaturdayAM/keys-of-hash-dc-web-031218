@@ -5,7 +5,6 @@ class Hash
     #self.each do |key, value|
     #end
     arguments.inspect
-
   end
 end
 
