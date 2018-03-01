@@ -2,8 +2,11 @@ class Hash
   def keys_of(*arguments)
     # code goes here
     to_return = []
-    #self.each do |key, value|
-    #end
+    self.each do |key, value|
+      if arguments.inspect.include?(value)
+        to_return << key
+      end
+    end
     arguments.inspect
   end
 end
